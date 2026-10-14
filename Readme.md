@@ -42,7 +42,7 @@ The following labels identify the types of work performed on individual datasets
 
 - **EXBN — Extracted by Najma:** Text extracted independently from an identifiable source, rather than adopted from an existing structured corpus.
 - **EDBN — Edited by Najma:** Text or data revised for correction, consistency, or readability while preserving its underlying content.
-- **TRBN — Translated/Transliterated by Najma:** Text translated from one language into another, or Text rendered from one writing system into another.
+- **TRBN — Translated and/or Transliterated by Najma:** Text translated from one language into another, or Text rendered from one writing system into another.
 
 Multiple labels may apply to the same dataset when different stages of work have been performed. These labels describe editorial contributions; they do not, by themselves, establish textual accuracy, scholarly endorsement, ownership, or licensing rights.
 
