@@ -31,4 +31,41 @@
   });
 
   sections.forEach(section => observer.observe(section));
+
+const button = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.site-nav');
+
+button.addEventListener('click', () => {
+
+  button.classList.toggle('active');
+  nav.classList.toggle('active');
+
+  const expanded =
+    button.classList.contains('active');
+
+  button.setAttribute(
+    'aria-expanded',
+    expanded
+  );
+
+});
+
+document
+  .querySelectorAll('.site-nav a')
+  .forEach(link => {
+
+    link.addEventListener('click', () => {
+
+      button.classList.remove('active');
+      nav.classList.remove('active');
+
+      button.setAttribute(
+        'aria-expanded',
+        'false'
+      );
+
+    });
+
+});
+
 })();

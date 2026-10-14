@@ -1,102 +1,105 @@
-
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="May's Corpus documents the sources, structure, and editorial history of textual resources used in May's Codex.">
-
   <title>May’s Corpus</title>
 
-  <link rel=stylesheet href=./others/fonts/fonts.css>
+  <link rel="stylesheet" href="./others/fonts/fonts.css">
   <link rel="stylesheet" href="./others/index.css">
   <script src="./others/index.js" defer></script>
 </head>
+
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="wordmark" href="#top">May’s Corpus<span>.</span></a>
-
-      <nav class="site-nav" aria-label="Main navigation">
-        <a href="#collections">Collections</a>
-        <a href="#methodology">Methodology</a>
-        <a href="#contributions">Contributions</a>
-        <a href="#rights">Rights &amp; Licensing</a>
-      </nav>
+  <!-- ==========================================
+       HEADER & NAVIGATION
+       ========================================== -->
+<header class="site-header">
+  <div class="header-inner">
+    <!-- Bungkus logo dan toggle dalam satu baris flex -->
+    <div class="header-top">
+      <a class="wordmark" href="#top"> May’s Corpus<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
-  </header>
-
+    
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#collections">Collections</a>
+      <a href="#methodology">Methodology</a>
+      <a href="#contributions">Contributions</a>
+      <a href="#rights">Rights &amp; Licensing</a>
+    </nav>
+  </div>
+</header>
+  <!-- ==========================================
+       MAIN CONTENT
+       ========================================== -->
   <main id="main">
-    <!-- Introduction -->
+
+    <!-- HERO SECTION -->
     <section class="hero section-wrap" id="top">
       <p class="eyebrow">A textual research project</p>
-
       <h1>May’s <em>Corpus</em></h1>
-
       <p class="hero-lede">
-        A documented collection of scriptural texts and commentaries
-        used in the development of <strong>May’s Codex</strong>.
+        A documented collection of scriptural texts and commentaries used in the development of <strong>May’s Codex</strong>.
       </p>
-
       <p class="hero-note">
-        This project records the sources of its data, how the data has
-        been processed, and which editorial contributions have been made.
-        It is currently maintained as a private project while its contents
-        and documentation are reviewed.
+        This project records the sources of its data, how the data has been processed, and which editorial contributions have been made. It is currently maintained as a private project while its contents and documentation are reviewed.
       </p>
-
       <a class="text-link" href="#collections">
         Explore the collections <span aria-hidden="true">↘</span>
       </a>
     </section>
 
-    <!-- About -->
+    <!-- PROJECT OVERVIEW -->
+    <section class="section-wrap project-overview" style="display:none;">
+      <div class="overview-card">
+        <span class="overview-label"> Purpose </span>
+        <strong> Source Documentation </strong>
+        <p> Recording provenance, source identification, editorial history, and processing methods. </p>
+      </div>
+      <div class="overview-card">
+        <span class="overview-label"> Maintainer </span>
+        <strong> Najma Shira </strong>
+        <p> Responsible for collection planning, metadata, and editorial management. </p>
+      </div>
+      <div class="overview-card">
+        <span class="overview-label"> Status </span>
+        <strong> Private Development </strong>
+        <p> Collections, rights information, and documentation are under review. </p>
+      </div>
+    </section>
+
+    <!-- 01 / ABOUT / OVERVIEW -->
     <section class="section-wrap section-block" id="about">
       <div class="section-heading">
         <p class="eyebrow">01 / Overview</p>
         <h2>About the project</h2>
       </div>
-
       <div class="prose narrow">
-        <p>
-          May’s Corpus is a source-data and documentation project supporting
-          May’s Codex, a digital study environment for biblical and Qur’anic
-          texts and related resources.
-        </p>
-
-        <p>
-          It brings source identification, data organization, editorial
-          history, and rights information together in one place.
-        </p>
-
-        <p>
-          The term <em>Scripture</em> is used as a descriptive category for
-          texts regarded as sacred within their respective religious
-          traditions. Its use does not assert a theological position about
-          the origin, authorship, or status of any text.
-        </p>
-
-        <p>
-          The project is being developed privately for now. A future public
-          release will depend on source verification, documentation, and
-          the rights applicable to each dataset.
-        </p>
+        <p> May’s Corpus is a source-data and documentation project supporting May’s Codex, a digital study environment for biblical and Qur’anic texts and related resources. </p>
+        <p> It brings source identification, data organization, editorial history, and rights information together in one place. </p>
+        <p> The term <em>Scripture</em> is used as a descriptive category for texts regarded as sacred within their respective religious traditions. Its use does not assert a theological position about the origin, authorship, or status of any text. </p>
+        <p> The project is being developed privately for now. A future public release will depend on source verification, documentation, and the rights applicable to each dataset. </p>
       </div>
     </section>
 
-    <!-- Collections -->
+    <!-- 02 / COLLECTIONS -->
     <section class="section-wrap section-block" id="collections">
       <div class="section-heading">
         <p class="eyebrow">02 / Collections</p>
         <h2>Sources &amp; resources</h2>
-        <p class="section-intro">
-          An overview of the current collection plan. Detailed source
-          information will be recorded in each dataset’s metadata.
-        </p>
+        <p class="section-intro"> An overview of the current collection plan. Detailed source information will be recorded in each dataset’s metadata. </p>
       </div>
 
+      <!-- Collection Group A -->
       <div class="collection-group">
         <div class="group-heading">
           <span class="group-index">A</span>
@@ -110,14 +113,8 @@
           <article class="collection-card">
             <p class="card-kicker">Greek New Testament</p>
             <h4>Biblia</h4>
-            <p class="card-source">
-              Eberhard Nestle · 5th edition (1904)
-            </p>
-            <p>
-              Greek textual data and related language resources.
-              Exact source and edition details will be documented
-              against the copy used.
-            </p>
+            <p class="card-source"> Eberhard Nestle · 5th edition (1904) </p>
+            <p> Greek textual data and related language resources. Exact source and edition details will be documented against the copy used. </p>
             <div class="tag-list">
               <span>Greek</span>
               <span>Textual data</span>
@@ -127,13 +124,8 @@
           <article class="collection-card">
             <p class="card-kicker">Hebrew Bible</p>
             <h4>Tanakh</h4>
-            <p class="card-source">
-              Westminster Leningrad Codex
-            </p>
-            <p>
-              Hebrew textual data and related language resources,
-              with source and processing details recorded in metadata.
-            </p>
+            <p class="card-source"> Westminster Leningrad Codex </p>
+            <p> Hebrew textual data and related language resources, with source and processing details recorded in metadata. </p>
             <div class="tag-list">
               <span>Hebrew</span>
               <span>Textual data</span>
@@ -144,11 +136,7 @@
             <p class="card-kicker">Qur’anic text</p>
             <h4>Qur’an</h4>
             <p class="card-source">Uthmani script</p>
-            <p>
-              Arabic text and word-level data, with transliteration
-              and other linguistic fields documented separately
-              where applicable.
-            </p>
+            <p> Arabic text and word-level data, with transliteration and other linguistic fields documented separately where applicable. </p>
             <div class="tag-list">
               <span>Arabic</span>
               <span>Word-level data</span>
@@ -157,14 +145,13 @@
         </div>
       </div>
 
+      <!-- Collection Group B -->
       <div class="collection-group">
         <div class="group-heading">
           <span class="group-index">B</span>
           <div>
             <h3>Tafsir &amp; commentaries</h3>
-            <p>
-              Interpretive works associated with the scriptural collections
-            </p>
+            <p> Interpretive works associated with the scriptural collections </p>
           </div>
         </div>
 
@@ -172,11 +159,7 @@
           <article class="collection-card">
             <p class="card-kicker">Biblical commentary</p>
             <h4>Albert Barnes · Biblia</h4>
-            <p>
-              Commentary data associated with the New Testament.
-              Extraction, OCR correction, editorial revision, and review
-              scope will be described in the dataset metadata.
-            </p>
+            <p> Commentary data associated with the New Testament. Extraction, OCR correction, editorial revision, and review scope will be described in the dataset metadata. </p>
             <div class="tag-list">
               <span>English</span>
               <span>Commentary</span>
@@ -186,11 +169,7 @@
           <article class="collection-card">
             <p class="card-kicker">Old Testament commentary</p>
             <h4>Albert Barnes · Tanakh</h4>
-            <p>
-              Commentary data associated with the Hebrew Bible /
-              Old Testament. The source work and relevant biblical
-              coverage will be identified in its metadata.
-            </p>
+            <p> Commentary data associated with the Hebrew Bible / Old Testament. The source work and relevant biblical coverage will be identified in its metadata. </p>
             <div class="tag-list">
               <span>English</span>
               <span>Commentary</span>
@@ -200,11 +179,7 @@
           <article class="collection-card">
             <p class="card-kicker">Qur’anic exegesis</p>
             <h4>Ibn Kathir · Qur’an</h4>
-            <p>
-              A planned collection for Qur’anic exegesis. The specific
-              edition, language, source, and processing will be recorded
-              once established.
-            </p>
+            <p> A planned collection for Qur’anic exegesis. The specific edition, language, source, and processing will be recorded once established. </p>
             <div class="tag-list">
               <span>Exegesis</span>
               <span>Details pending</span>
@@ -213,13 +188,10 @@
         </div>
       </div>
 
-      <p class="small-note">
-        Collection names are descriptive working labels and may be refined
-        as source editions and rights information are verified.
-      </p>
+      <p class="small-note"> Collection names are descriptive working labels and may be refined as source editions and rights information are verified. </p>
     </section>
 
-    <!-- Methodology -->
+    <!-- 03 / METHODOLOGY & DOCUMENTATION -->
     <section class="section-wrap section-block" id="methodology">
       <div class="section-heading">
         <p class="eyebrow">03 / Documentation</p>
@@ -230,110 +202,72 @@
         <article class="method-item">
           <span class="method-number">01</span>
           <h3>Source identification</h3>
-          <p>
-            Record the author or editor, work title, edition, publication
-            details, source location, language, and applicable license
-            or rights statement.
-          </p>
+          <p> Record the author or editor, work title, edition, publication details, source location, language, and applicable license or rights statement. </p>
         </article>
 
         <article class="method-item">
           <span class="method-number">02</span>
           <h3>Data processing</h3>
-          <p>
-            Describe extraction, OCR, normalization, correction,
-            editorial revision, translation, transliteration, and
-            conversion into structured formats where applicable.
-          </p>
+          <p> Describe extraction, OCR, normalization, correction, editorial revision, translation, transliteration, and conversion into structured formats where applicable. </p>
         </article>
 
         <article class="method-item">
           <span class="method-number">03</span>
           <h3>Review scope</h3>
-          <p>
-            State what was checked, how it was checked, and which
-            limitations remain. Review does not guarantee that a
-            dataset is error-free.
-          </p>
+          <p> State what was checked, how it was checked, and which limitations remain. Review does not guarantee that a dataset is error-free. </p>
         </article>
 
         <article class="method-item">
           <span class="method-number">04</span>
           <h3>Version history</h3>
-          <p>
-            Track changes to datasets and metadata so future maintainers
-            can understand what changed and, where possible, why.
-          </p>
+          <p> Track changes to datasets and metadata so future maintainers can understand what changed and, where possible, why. </p>
         </article>
       </div>
 
       <div class="notice">
         <strong>Editorial principle</strong>
-        <p>
-          Keep source material distinguishable from extracted, corrected,
-          translated, transliterated, or revised data. Where practical,
-          preserve an unchanged source copy or raw extraction separately
-          from edited versions.
-        </p>
+        <p> "Keep source material distinguishable from extracted, corrected, translated, transliterated, or revised data. Where practical, preserve an unchanged source copy or raw extraction separately from edited versions." </p>
       </div>
     </section>
 
-    <!-- Contribution labels -->
+    <!-- 04 / CONTRIBUTIONS -->
     <section class="section-wrap section-block" id="contributions">
       <div class="section-heading">
         <p class="eyebrow">04 / Contribution labels</p>
         <h2>Editorial contribution record</h2>
-        <p class="section-intro">
-          These labels describe the type of work performed on a dataset.
-          They do not, by themselves, establish ownership, accuracy,
-          endorsement, or permission to redistribute the underlying source.
-        </p>
+        <p class="section-intro"> These labels describe the type of work performed on a dataset. They do not, by themselves, establish ownership, accuracy, endorsement, or permission to redistribute the underlying source. </p>
       </div>
 
       <div class="label-list">
         <article class="label-row">
-          <code>EXBN</code>
+          <div class="label-badge"> EXBN </div>
           <div>
             <h3>Extracted by Najma</h3>
-            <p>
-              Data extracted or transcribed by Najma from an identified
-              source into the project’s working format.
-            </p>
+            <p> Data extracted or transcribed by Najma from an identified source into the project’s working format. </p>
           </div>
         </article>
 
         <article class="label-row">
-          <code>EDBN</code>
+          <div class="label-badge"> EDBN </div>
           <div>
             <h3>Edited by Najma</h3>
-            <p>
-              Data reviewed or edited by Najma for purposes such as OCR
-              correction, consistency, formatting, or readability, while
-              aiming to preserve the source’s meaning.
-            </p>
+            <p> Data reviewed or edited by Najma for purposes such as OCR correction, consistency, formatting, or readability, while aiming to preserve the source’s meaning. </p>
           </div>
         </article>
 
         <article class="label-row">
-          <code>TRBN</code>
+          <div class="label-badge"> TRBN </div>
           <div>
             <h3>Translated and/or Transliterated by Najma</h3>
-            <p>
-              Text translated between languages and/or transliterated
-              between writing systems by Najma. The specific operation
-              should be stated in the dataset metadata.
-            </p>
+            <p> Text translated between languages and/or transliterated between writing systems by Najma. The specific operation should be stated in the dataset metadata. </p>
           </div>
         </article>
       </div>
 
-      <p class="small-note">
-        Multiple labels may apply to the same dataset. Assign labels
-        only where the described contribution was actually performed.
-      </p>
+      <p class="small-note"> Multiple labels may apply to the same dataset. Assign labels only where the described contribution was actually performed. </p>
     </section>
 
-    <!-- Rights -->
+    <!-- 05 / RIGHTS & LICENSING -->
     <section class="section-wrap section-block" id="rights">
       <div class="section-heading">
         <p class="eyebrow">05 / Responsible use</p>
@@ -341,46 +275,38 @@
       </div>
 
       <div class="prose narrow">
-        <p>
-          Rights and redistribution conditions must be assessed for each
-          source and edition. A work’s age, its availability online, or
-          the fact that it has been extracted or edited does not by itself
-          establish that every version or component may be redistributed.
-        </p>
-
-        <p>
-          Metadata should identify the relevant source, any known license
-          or public-domain information, and unresolved questions. Where
-          rights have not yet been confirmed, that uncertainty should be
-          stated rather than inferred.
-        </p>
-
-        <p>
-          Until the review is complete, the repository and its datasets
-          remain private. Any future public release will be considered
-          on a collection-by-collection basis.
-        </p>
+        <p> Rights and redistribution conditions must be assessed for each source and edition. A work’s age, its availability online, or the fact that it has been extracted or edited does not by itself establish that every version or component may be redistributed. </p>
+        <p> Metadata should identify the relevant source, any known license or public-domain information, and unresolved questions. Where rights have not yet been confirmed, that uncertainty should be stated rather than inferred. </p>
+        <p> Until the review is complete, the repository and its datasets remain private. Any future public release will be considered on a collection-by-collection basis. </p>
       </div>
     </section>
 
-    <!-- Closing -->
+    <!-- CLOSING SECTION -->
     <section class="closing section-wrap">
       <p class="eyebrow">Long-term preservation</p>
       <h2>Document the source. Preserve the work.</h2>
-      <p>
-        May’s Corpus is maintained by Najma as part of the May’s Codex
-        project, with the aim of making the provenance and editorial
-        history of its textual resources clear to future maintainers.
-      </p>
+      <p> May’s Corpus is maintained by Najma as part of the May’s Codex project, with the aim of making the provenance and editorial history of its textual resources clear to future maintainers. </p>
     </section>
+
   </main>
 
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
   <footer class="site-footer">
     <div class="footer-inner">
-      <span>May’s Corpus</span>
-      <span>Part of May’s Codex</span>
-      <a href="#top">Back to top ↑</a>
+      <div class="footer-brand">
+        <strong> May’s Corpus </strong>
+        <p> A source-data and documentation project supporting May’s Codex. </p>
+      </div>
+      <div class="footer-meta">
+        <span> Maintained by Najma </span>
+        <span> Private development project </span>
+      </div>
+      <a href="#top"> Back to top ↑ </a>
     </div>
   </footer>
+
 </body>
+
 </html>
