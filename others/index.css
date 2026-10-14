@@ -379,14 +379,16 @@ h4 {
 }
 
 .group-index {
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  border: 1px solid var(--line);
-  color: var(--accent);
-  font-weight: 700;
+    width: 20px;
+    height: 90px;
+    /* border-radius: 50%; */
+    display: grid;
+    place-items: center;
+    /* border: 1px solid var(--line); */
+    color: var(--accent);
+    font-weight: 700;
+    border-right: 4px solid var(--accent);
+    align-self: center;
 }
 
 .collection-grid {
@@ -526,7 +528,7 @@ h4 {
 
 .label-row::before {
   left: 0;
-  top: 32px;
+  top: 28px;
   width: 3px;
   height: 28px;
   border-radius: 999px;
@@ -570,6 +572,11 @@ h4 {
   line-height: 1.75;
 }
 
+.label-badge {
+/*  align-content: center;*/
+  text-align: center;
+}
+
 .closing {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -593,6 +600,7 @@ h4 {
 .small-note {
   margin-top: 18px;
   font-size: .85rem;
+  font-style: italic;
 }
 
 
