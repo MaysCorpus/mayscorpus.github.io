@@ -1,0 +1,38 @@
+{
+  "corpus_id": "barnes-biblia",
+  "title": "Albert Barnes' Commentary on the New Testament",
+  "resource_type": "biblical_commentary",
+  "language": {
+    "source": "English",
+    "output": "English"
+  },
+  "source": {
+    "author": "Albert Barnes",
+    "title": null,
+    "edition": null,
+    "publication_year": null,
+    "source_url": null
+  },
+  "contributions": [
+    "EXBN",
+    "EDBN"
+  ],
+  "processing": {
+    "extraction_method": "OCR-assisted extraction",
+    "editorial_method": "OCR correction and readability revision",
+    "manual_review": true,
+    "verification_scope": "Reviewed verse by verse",
+    "limitations": null
+  },
+  "format": {
+    "type": "JSON",
+    "organization": "Commentary grouped by biblical reference"
+  },
+  "rights": {
+    "source_status": "To be verified",
+    "redistribution_status": "To be determined"
+  },
+  "maintainer": "Najma",
+  "version": "1.0.0",
+  "last_updated": null
+}
